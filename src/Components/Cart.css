@@ -1,0 +1,70 @@
+.container {
+  margin-top: 25px;
+  border: 1px dashed;
+  height: 100px !important;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.colimg {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.colname {
+  width: 30%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.coldesc {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.colquantity {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quantity {
+  margin: 0px 5px;
+  font-size: 23px;
+}
+
+.colprice {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coltotalprice {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coltrash {
+  width: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foot {
+  display: flex;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.75rem;
+  border-top: 1px solid #dee2e6;
+  border-bottom-right-radius: calc(0.3rem - 1px);
+  border-bottom-left-radius: calc(0.3rem - 1px);
+}
+.total {
+  font-size: 40px;
+}

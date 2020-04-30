@@ -1,0 +1,24 @@
+.navbar-content {
+  margin-right: 20px;
+}
+.navserachbar {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+}
+
+.dot-container {
+  position: absolute;
+  top: 18%;
+  right: 1.5%;
+}
+
+.nbreofItems {
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  position: absolute;
+  top: 28%;
+  right: 23%;
+}
