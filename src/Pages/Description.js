@@ -6,10 +6,11 @@ import { Link } from "react-router-dom";
 function Description(props) {
   return (
     <div>
+      <div style={{ margin: "70px 0 20px 0" }} />
       {props.ListItems.map(
         (element) =>
           element.name === props.match.params.id && (
-            <Card className="text-center">
+            <Card className="text-center" key={element.id}>
               <Card.Header as="h2">{element.name}</Card.Header>
               <Card.Body>
                 <img

@@ -76,7 +76,12 @@ function Cart(props) {
           Close
         </Button>
         <span className="total">Total: ${x}</span>
-        <Button variant="primary">Buy</Button>
+        <Button
+          variant="primary"
+          onClick={() => alert("Ooops under construction!")}
+        >
+          Buy
+        </Button>
       </div>
     </Modal>
   );
