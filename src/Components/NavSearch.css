@@ -10,8 +10,9 @@
 
 .dot-container {
   position: absolute;
-  top: 18%;
-  right: 1.5%;
+  top: 13px;
+  right: 9px;
+  z-index: 1;
 }
 
 .nbreofItems {
@@ -19,6 +20,6 @@
   font-weight: bold;
   font-size: 10px;
   position: absolute;
-  top: 28%;
-  right: 23%;
+  top: 26%;
+  right: 29%;
 }

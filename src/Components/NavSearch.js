@@ -37,16 +37,18 @@ function NavSearch(props) {
         <div style={{ display: "none" }}>
           {props.ListItems.map((item) => item.isInCart && (nbrofItems += 1))}
         </div>
-
-        <div className="dot-container">
-          <span className="nbreofItems">{nbrofItems}</span>
-          <FaCircle color="#dc3545" size="12px" />
+        <div style={{ marginLeft: "20px" }}>
+          <div className="dot-container">
+            <span className="nbreofItems">{nbrofItems}</span>
+            <FaCircle color="#dc3545" size="12px" />
+          </div>
+          <FaShoppingCart
+            size="1.750rem"
+            color="white"
+            onClick={() => props.openCartModal(props.isOpenModal)}
+            style={{ position: "absolute", top: "22px", right: "5px" }}
+          />
         </div>
-        <FaShoppingCart
-          size="1.750rem"
-          color="white"
-          onClick={() => props.openCartModal(props.isOpenModal)}
-        />
         <Cart />
       </Navbar>
     </div>
